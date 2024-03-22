@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+}
+
+p{
+   color: black;
+}
+
+
+ol {
+  padding: 0;
+}
+
+h1 {
+  color: rgb(247, 240, 240);
+  font-family: cursive;
+  font-size: 5rem;
+  border: 3px solid black;
+
+  text-align: center;
+}
+
+li {
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+   border: 3px solid hsl(0, 86%, 51%);
+  margin-bottom: 10px;
+
+
+}
+
+
+
+.to-do-list {
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+
+}
+
+button {
+  font-size: 1.7rem;
+  font-size: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+
+  padding: 10px;
+
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+input[type="text"]:hover {
+  border: 2px solid rgb(87, 17, 216);
+}
+
+.add-btn {
+  background-color: rgb(19, 30, 241);
+  padding: 10px;
+
+  font-weight: 650;
+  border-radius: 5px;
+  color: rgb(244, 236, 236);
+}
+
+.add-btn:hover {
+  background-color: rgb(25, 98, 214);
+}
+
+.del-btn {
+  background-color: rgb(222, 12, 12);
+  border-radius: 5px;
+  color: white;
+}
+.move-btn{
+     background-color: green;
+}
+.move-btn:hover {
+  background-color: rgb(19, 235, 15);
+}
+.del-btn:hover {
+  background-color: rgb(152, 12, 12);
+}
+
+.text{
+  flex: 1;
+}
